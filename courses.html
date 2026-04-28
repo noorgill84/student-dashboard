@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">EduDash</div>
+  <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="courses.html"><i class="fas fa-book"></i> Courses</a></li>
+    <li><a href="assignments.html"><i class="fas fa-tasks"></i> Assignments</a></li>
+    <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+  </ul>
+</nav>
+
+<!-- Content -->
+<div class="container fade-in">
+  <h1>Your Courses 📚</h1>
+
+  <div class="cards">
+    <div class="card gradient1">
+      <i class="fas fa-code icon"></i>
+      <h3>Web Development</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="card gradient2">
+      <i class="fas fa-robot icon"></i>
+      <h3>Machine Learning</h3>
+      <p>AI & Model Building</p>
+    </div>
+
+    <div class="card gradient3">
+      <i class="fas fa-database icon"></i>
+      <h3>Database Systems</h3>
+      <p>SQL & Data Management</p>
+    </div>
+
+    <div class="card gradient1">
+      <i class="fas fa-network-wired icon"></i>
+      <h3>Computer Networks</h3>
+      <p>Networking Basics</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
